@@ -93,7 +93,7 @@ For each active debt:
 
 **Example**:
 ```
-Alex Truworths (Target debt Phase 1)
+Alex Store Card (Target debt Phase 1)
 - Previous balance (2026-01-31): 8,500
 - Payments made (Feb):           -500
 - Interest accrued (~2% monthly):  +170
@@ -121,12 +121,12 @@ python3 ${CLAUDE_PLUGIN_ROOT}/skills/finance-planner/scripts/debt_projection.py 
 **Output**:
 ```
 Current Snowball (Phase 1 in progress)
-Target: Alex Truworths (8,170 current, min payment $150)
+Target: Alex Store Card (8,170 current, min payment $150)
 Cascade: $500/month to target
 Clearance: 18 months (by Aug 2027)
 
-Next in cascade: Std Bank CC (5,240)
-Then: Sam Truworths (3,600)
+Next in cascade: Bank Credit Card (5,240)
+Then: Sam Store Card (3,600)
 
 Full payoff timeline: 48 months (by Mar 2030)
 ```
@@ -139,10 +139,10 @@ Formula per debt: `(Balance × Annual Rate) / 12`
 
 Example:
 ```
-Alex Truworths:     8,170 × 12% / 12 = 82/month
-Std Bank CC:      5,240 × 18% / 12 = 79/month
-Sam Truworths:    3,600 × 15% / 12 = 45/month
-Alex Auto:          25,000 × 7% / 12 = 146/month
+Alex Store Card:  8,170 × 12% / 12 = 82/month
+Bank Credit Card: 5,240 × 18% / 12 = 79/month
+Sam Store Card:   3,600 × 15% / 12 = 45/month
+Alex Auto:        25,000 × 7% / 12 = 146/month
 Sam Car Loan:     50,000 × 6.5% / 12 = 271/month
 -------
 TOTAL INTEREST:   623/month
@@ -169,7 +169,7 @@ Alex Salary (Last day of month)
     Utilities:        1,100
     Subscriptions:    280
     Debt Minimum (CC): 75
-    Debt Accelerator: 1,045 → Alex Truworths
+    Debt Accelerator: 1,045 → Alex Store Card
   Balance:           6,000 (allocate to: emergency fund top-up or next earner's needs)
 
 Sam Salary (Mid-month)
@@ -178,11 +178,11 @@ Sam Salary (Mid-month)
     Food contribution: 500
     Transport:        400
     Debt Minimum (TW): 150
-    Debt Accelerator: 955 → Alex Truworths
+    Debt Accelerator: 955 → Alex Store Card
   Balance:          6,695 (allocate to: housing/utilities)
 
 Combined Debt Payments This Month: 2,225
-- Alex Truworths (target): 2,000
+- Alex Store Card (target): 2,000
 - Other minimums: 225
 ```
 
