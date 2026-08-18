@@ -15,6 +15,10 @@ This module provides United States-specific financial guidance, including retire
 - **Formatting:** $1,234.56 (dollar sign, comma separator, two decimal places)
 - **Update triggers:** Automatically loaded when household profile specifies Country: US
 
+## Bank Statement Parsing
+
+Statement guides live in `references/bank-parsing/`. No US bank is pre-mapped yet — the system **learns each bank on first sighting**: parse the statement carefully, then save a new `<bank>.md` from `_TEMPLATE.md` (e.g. `chase.md`, `bofa.md`, `wells-fargo.md`, `capitalone.md`, `amex.md`) capturing that bank's description patterns, credit/debit convention, and category mapping. Note it in the CHANGELOG. See Finance Planner Step 2. Watch for US-specific quirks: ACH vs. wire, Zelle/Venmo/Cash App transfers, pending vs. posted, and check/e-check numbers.
+
 ## Tax-Advantaged Retirement Accounts (2026)
 
 ### 401(k) Plans (Employer-Sponsored)

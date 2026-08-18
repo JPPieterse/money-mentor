@@ -34,7 +34,7 @@ status: active
 
 - **Big 4:** FNB (strong app/eBucks, premium fees R100–600/mo on bundled accounts), Standard Bank, Absa, Nedbank.
 - **Low-cost challengers:** Capitec (full-feature, ±R7/mo), TymeBank (near-free, digital-only), Discovery Bank (rewards-led), Bank Zero. A bundled-account household can often save R300–600/mo switching — weigh rewards honestly (eBucks etc. mostly reward spending you shouldn't inflate).
-- Statements: see `references/bank-parsing/fnb.md` for FNB transaction patterns.
+- Statements: use the matching guide in `references/bank-parsing/` (FNB is fully mapped in `fnb.md`). For any other bank — Capitec, Standard Bank, Absa, Nedbank, TymeBank, Discovery, Bank Zero — parse the statement, then save a new `<bank>.md` from `_TEMPLATE.md` so it's learned for next time (see Finance Planner Step 2).
 
 ## Common Debt Types — realistic SA pricing (verify per statement; repo-linked caps)
 
@@ -65,7 +65,7 @@ status: active
 1. `references/household-data.md` — income, debts, goals (the master).
 2. `references/repayment-strategy.md` — cascade logic.
 3. `skills/country/za/references/tax-and-accounts.md` — every number with a verified date.
-4. `references/bank-parsing/fnb.md` — statement parsing.
+4. `references/bank-parsing/<bank>.md` — statement parsing (FNB mapped; other banks auto-learned and saved on first sighting).
 5. **Verify rates/limits on SARS before filings or big decisions** — Budget changes land every March.
 
 ---

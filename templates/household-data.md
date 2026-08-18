@@ -127,24 +127,25 @@ Country: [ZA/US]
 - End date: [date]
 - Settlement terms: [any restrictions?]
 
-## Goals
+## Goals (Sinking Funds)
 
-### Short Term (3-6 months)
-| Goal | Target | Status |
-|------|--------|--------|
-| [Goal 1] | [amount] | Not started |
+<!-- A goal is a target amount by a target date. Monthly contribution = (target − saved) ÷
+months remaining. The Goal Planner skill sets these; Finance Planner funds them monthly and
+updates "Saved". Full detail + sequencing lives in references/goal-plan.md. -->
 
-### Medium Term (6-24 months)
-| Goal | Target |
-|------|--------|
-| [Goal 1] | [amount] |
-| Emergency Fund | [3-6 months expenses] |
+| Goal | Target | Deadline | Saved so far | Monthly contribution | Priority |
+|------|--------|----------|--------------|----------------------|----------|
+| Emergency Fund | [3-6 mo expenses] | ongoing | [amount] | [amount] | 1 |
+| [e.g. House deposit] | [amount] | [Mmm YYYY] | [amount] | [amount] | 2 |
+| [e.g. Replace car] | [amount] | [Mmm YYYY] | [amount] | [amount] | 3 |
 
-### Long Term (2+ years)
-| Goal | Current | Target |
-|------|---------|--------|
-| [Tax-free savings] | [current/mo] | [target/mo] |
-| [Retirement] | [current/mo] | [target/mo] |
+**Total monthly goal contributions: [amount]**
+
+### Long-Term Wealth (ongoing, not dated sinking funds)
+| Item | Current/mo | Target/mo |
+|------|-----------|-----------|
+| [Tax-free savings] | [current] | [target] |
+| [Retirement] | [current] | [target] |
 
 ## Insurance Overview
 

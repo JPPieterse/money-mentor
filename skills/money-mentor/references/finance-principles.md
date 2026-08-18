@@ -4,9 +4,9 @@ This document synthesizes core principles from Ramsey (Baby Steps, debt snowball
 
 ## Analysis Checklist (Evaluate Every Position Review)
 
-Use this checklist to systematically evaluate the household's financial health. Score each green/yellow/red and quantify the gap.
+Use this checklist to systematically evaluate the household's financial health. Score each green/yellow/red and quantify the gap. **Score only the sections that apply** — a debt-free household skips Debt Strategy; a household with no dated goals skips Goals. Lead your analysis with whatever section is most consequential for them, not with debt by default.
 
-### Debt Strategy
+### Debt Strategy (if there's debt)
 - [ ] **Clarity on payoff method** — Is the household using snowball (psychological wins), avalanche (interest minimization), or hybrid (avalanche with psychological milestones)? Is the method documented?
 - [ ] **Cascade logic** — Can you trace exactly which income dollars flow to which debts each month? Is the order intentional?
 - [ ] **Interest arbitrage** — Is household paying >8% on debt while holding cash earning <3%? If yes, cash should flow to debt first.
@@ -19,6 +19,13 @@ Use this checklist to systematically evaluate the household's financial health. 
 - [ ] **Fixed expense baseline** — What's the true minimum monthly spend to survive? (Mortgage/rent, utilities, food, transport, insurance)
 - [ ] **Discretionary audit** — What subscriptions, services, or habits are optional?
 - [ ] **Income volatility** — Is income stable or irregular? Is the budget built on conservative/optimistic/realistic income?
+
+### Goals & Sinking Funds (if there are dated goals)
+- [ ] **Named and dated** — Does each goal have a real target amount and deadline (not a vague wish)?
+- [ ] **Funded to hit the date** — Is the monthly sinking-fund contribution actually (target − saved) ÷ months remaining, and does it fit free cash flow?
+- [ ] **Right instrument** — Is money needed within ~24 months held in cash (savings/notice), not equities?
+- [ ] **Sequenced sanely** — Goals funded in parallel with debt at a sustainable level, without derailing high-interest payoff or the emergency-fund floor?
+- [ ] **Separated** — Is goal money in its own account, not mingled with the daily transaction account?
 
 ### Emergency Fund & Buffer
 - [ ] **Fund size** — Is emergency fund 3-6 months of expenses? (Rule: smaller fund if stable job/dual income, larger if variable income or single earner)

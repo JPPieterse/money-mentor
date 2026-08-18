@@ -1,7 +1,7 @@
 {
   "name": "money-mentor",
-  "version": "1.0.0",
-  "description": "Personal finance management toolkit — debt elimination, budget tracking, wealth building. Supports South Africa and the United States. Includes guided onboarding, monthly processing workflows, and financial analysis.",
+  "version": "1.1.0",
+  "description": "Personal finance management toolkit — debt elimination, budget tracking, goal/sinking-fund planning, wealth building, and estate planning. Supports South Africa and the United States. Includes guided onboarding, monthly processing that learns your banks and spending, and financial analysis.",
   "author": {
     "name": "JP Pieterse"
   },
@@ -12,7 +12,10 @@
     "budgeting",
     "snowball",
     "avalanche",
+    "goal-planning",
+    "sinking-funds",
     "wealth-building",
+    "estate-planning",
     "financial-planning"
   ]
 }
